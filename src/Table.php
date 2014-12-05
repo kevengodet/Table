@@ -4,8 +4,31 @@ namespace Adagio\Table;
 
 class Table
 {
-    public function htmlize($data)
+    /**
+     *
+     * @var array
+     */
+    protected $data;
+
+    /**
+     *
+     * @param array $data
+     */
+    public function __construct($data = [])
     {
+        $this->data = $data;
+    }
+
+    /**
+     *
+     * @param array $data
+     *
+     * @return string
+     */
+    public function htmlize($data = null)
+    {
+        $data = is_null($data) ? $this->data : $data;
+
         $columns = array();
 
         // Collect headers
