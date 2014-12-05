@@ -1,0 +1,10 @@
+{
+    "name": "adagio/table",
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-0": {
+            "Adagio\\Table\\": "src/"
+        }
+    }
+}
