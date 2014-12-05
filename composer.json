@@ -1,6 +1,6 @@
 {
     "name": "adagio/table",
-    "description" : "Utilities to transforme data into HTML tables",
+    "description" : "Utilities to transform data into HTML tables",
     "license": "MIT",
     "minimum-stability": "dev",
     "autoload": {
